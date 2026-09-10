@@ -4,6 +4,15 @@
     <title>AtmosCheck</title>
     <link>https://github.com/machaelll/atmoscheck-releases/releases/download</link>
     <item>
+      <title>AtmosCheck 0.3</title>
+      <pubDate>Thu, 10 Sep 2026 20:19:25 +0000</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>0.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h2>AtmosCheck 0.3</h2><ul><li>An object track with no audio is now a failure (AUD-02), because label QC rejects masters with empty tracks even though they are inaudible. Silent bed channels stay informational (AUD-03).</li><li>Conform can remove silent object tracks: the audio channels, the ADM description, the channel table and the Dolby metadata are all rewritten so the new master has only tracks that carry sound.</li></ul>]]></description>
+      <enclosure url="https://github.com/machaelll/atmoscheck-releases/releases/download/v0.3/AtmosCheck-0.3.dmg" sparkle:edSignature="ywlQzARxMtyB1woQqOHySW8g6zNzTskjQSpk7IJjdgcgQ90AvXp0//00N3zIMWz/fAcyWLfYL93wbkV/K54MAg==" length="3337300" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>AtmosCheck 0.2</title>
       <pubDate>Thu, 10 Sep 2026 20:08:20 +0000</pubDate>
       <sparkle:version>4</sparkle:version>
