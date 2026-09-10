@@ -4,6 +4,15 @@
     <title>AtmosCheck</title>
     <link>https://github.com/machaelll/atmoscheck-releases/releases/download</link>
     <item>
+      <title>AtmosCheck 0.4</title>
+      <pubDate>Thu, 10 Sep 2026 21:13:52 +0000</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>0.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h2>AtmosCheck 0.4</h2><ul><li>Conform All: conform every analyzed master into a folder in one run, with a naming pattern. Tokens like {artist}, {title}, {n2} and {clean} build names such as &quot;01 Chanell - Bassy (Dolby Atmos).wav&quot; from the original file names. Masters that need no changes can be copied under the new name so the whole album ends up together; results are added to the list and checked.</li><li>Same batch from the command line: atmoscheck-cli batch &lt;files or folder&gt; --out-dir DIR --name PATTERN [--stereo-dir DIR].</li></ul>]]></description>
+      <enclosure url="https://github.com/machaelll/atmoscheck-releases/releases/download/v0.4/AtmosCheck-0.4.dmg" sparkle:edSignature="RVsZ5Lmo5dWB1Cg71P2qSg7mW9OSLtQRsrmRqFi1Ho/uCz6UtAfIXsKMBMRa/iDX9RwYKpAqmmYxS3qLP5BuCg==" length="3496310" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>AtmosCheck 0.3</title>
       <pubDate>Thu, 10 Sep 2026 20:19:25 +0000</pubDate>
       <sparkle:version>5</sparkle:version>
