@@ -4,6 +4,15 @@
     <title>AtmosCheck</title>
     <link>https://github.com/machaelll/atmoscheck-releases/releases/download</link>
     <item>
+      <title>AtmosCheck 0.2</title>
+      <pubDate>Thu, 10 Sep 2026 20:08:20 +0000</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>0.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h2>AtmosCheck 0.2</h2><ul><li>No changes to the checks or the app itself. This release exercises the finished update path: installed copies of 0.1 pick it up through Check for Updates… or the weekly check.</li><li>Release tooling: publishing is its own re-runnable step, and the release script explains what to do when a version has no notes yet.</li></ul>]]></description>
+      <enclosure url="https://github.com/machaelll/atmoscheck-releases/releases/download/v0.2/AtmosCheck-0.2.dmg" sparkle:edSignature="BSh75FdFf4VD/LoYAdwyc5YehIXkApuOht8u/e+0tOYX6k1z1gtW08VY7/pwN4TQo6QSynIhKN+zYca+65WLBw==" length="3300262" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>AtmosCheck 0.1</title>
       <pubDate>Thu, 10 Sep 2026 19:57:59 +0000</pubDate>
       <sparkle:version>3</sparkle:version>
