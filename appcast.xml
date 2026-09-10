@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>AtmosCheck</title>
+    <link>https://github.com/machaelll/atmoscheck-releases/releases/download</link>
+    <item>
+      <title>AtmosCheck 0.1</title>
+      <pubDate>Thu, 10 Sep 2026 19:57:59 +0000</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h2>AtmosCheck 0.1</h2><ul><li>macOS app: drop ADM BWF masters (and stereo masters) on the window, get a pass/fail report per Apple Music / Dolby rule, a channel table with binaural modes, and an album overview with cross-track checks.</li><li>Conform sheet: gain to the loudness ceiling, start alignment and length match against the stereo master, written as a new ADM file that is added back to the list for verification.</li><li>Native Swift engine (AtmosCheckKit): RIFF/RF64 reader, ADM and Dolby dbmd parsing, BS.1770-4 loudness and 4x true peak, approximate 5.1/2.0 re-render, cross-correlation sync. Matches the Python prototype&#x27;s numbers on real masters and runs a 2-minute master in under a second.</li><li>Command line twin `atmoscheck-cli` for scripts and parity checks.</li><li>In-app updates through Sparkle (weekly check, AtmosCheck &gt; Check for Updates…) and a release script that builds, tests, signs, makes the disk image and publishes.</li><li>Provenance check (PROV-01/02): flags Atmos masters that reconstruct the stereo master almost exactly, the signature of upmixes and de-mixed stems that label QC rejects.</li></ul>]]></description>
+      <enclosure url="https://github.com/machaelll/atmoscheck-releases/releases/download/v0.1/AtmosCheck-0.1.dmg" sparkle:edSignature="Jm18ukFJcs4h90XGUUUkZ6CEbSvgH/EMfgHqkac0KyxR+TnHFBYTpMz3kkaTxrDuvbXv01FUV/gnkv71MlQsBA==" length="3299722" type="application/octet-stream"/>
+    </item>
+  </channel>
+</rss>
